@@ -1,11 +1,7 @@
-# Grab Info with ISBN
+# Description
 
 **ID**: `grab-isbn-information`\
-**Version**: `1.0.0`\
-**Author**: hawke\
 **Minimum Obsidian Version**: `0.15.0`
-
-## Description
 
 Grab book information using just the ISBN!
 
@@ -19,12 +15,12 @@ Includes:
 - Publisher
 - Number of Pages
 - ISBN
-- **Cover image (downloaded and saved to your Obsidian vault)**
+- Cover Image
 
 ---
-## Install
+## Installation
 
-Put the file on the vaults plugins directory. vaultname\.obsidian\plugins
+Put the file on the vaults plugins directory. `vaultname\.obsidian\plugins`
 
 ```
 git clone https://github.com/hawkeruh/obsidian-isbn-plugin
@@ -43,24 +39,19 @@ npm start
    isbn:9780451524935
    ```
 
-2. Press `Ctrl + P` and run the command:\
-   **Grab ISBN Information**
+![Text on the note.](screenshots/plugin-before.png)
+
+2. Press `Ctrl + P` and run the command:
+
+![Command line.](screenshots/plugin-commandline.png)
 
 3. Voilà! The plugin will replace the ISBN line with formatted book information and a cover image.
 
----
+![Book info and cover.](screenshots/plugin-after.png)
 
-## Output Example
-
-```markdown
-![[capa-9780451524935.jpg|150]]
-## 1984  
-**Author:** George Orwell  
-**Published in:** 1950  
-**Publisher:** Signet Classic  
-**Pages:** 328  
-**ISBN:** 9780451524935  
-```
 
 > The cover image will be saved automatically to the folder you configured for attachments in your Obsidian vault.
 
+## License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
