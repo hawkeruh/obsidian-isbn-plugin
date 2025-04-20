@@ -1,0 +1,11 @@
+{
+	"id": "grab-isbn-information",
+	"name": "Grab ISBN Information",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "By using ISBN number, get some book information.",
+	"author": "hawke",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
